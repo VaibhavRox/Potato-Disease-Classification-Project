@@ -67,7 +67,7 @@ DLProjectPotatoDiseaseClassification/
    - The app will automatically open at `http://localhost:8501`
    - Upload a potato leaf image to get disease prediction
 
-## 📊 Model Details
+##  Model Details
 
 ### Architecture
 - **Model Type**: Convolutional Neural Network (CNN)
