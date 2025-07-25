@@ -1,8 +1,8 @@
-# 🥔 Potato Disease Classification Project
+# Potato Disease Classification Project
 
 A deep learning project that classifies potato leaf diseases using Convolutional Neural Networks (CNN). The model can identify three classes: **Healthy**, **Early Blight**, and **Late Blight** from potato leaf images.
 
-## 🎯 Project Overview
+##  Project Overview
 
 This project implements an end-to-end machine learning solution for potato disease classification:
 
@@ -10,7 +10,7 @@ This project implements an end-to-end machine learning solution for potato disea
 - **Web Application**: Interactive Streamlit app for real-time disease prediction
 - **Model Performance**: Achieves high accuracy in classifying potato leaf diseases
 
-## 🌟 Features
+##  Features
 
 - **Deep Learning Model**: Custom CNN architecture built with TensorFlow/Keras
 - **Data Augmentation**: Enhanced training with image transformations
@@ -18,7 +18,7 @@ This project implements an end-to-end machine learning solution for potato disea
 - **Real-time Prediction**: Upload images and get instant disease classification
 - **Confidence Scores**: Prediction confidence percentage for each classification
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 DLProjectPotatoDiseaseClassification/
@@ -38,7 +38,7 @@ DLProjectPotatoDiseaseClassification/
     └── test/                      # Test images
 ```
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -84,9 +84,9 @@ DLProjectPotatoDiseaseClassification/
 - **Loss Function**: Sparse Categorical Crossentropy
 
 ### Performance
-The model achieves high accuracy on the test dataset with robust performance across all three disease categories.
+The model achieves high [95%+] accuracy on the test dataset with robust performance across all three disease categories.
 
-## 🖼️ Dataset
+##  Dataset
 
 The project uses the PlantVillage dataset, which contains images of potato leaves in three categories:
 
@@ -94,7 +94,7 @@ The project uses the PlantVillage dataset, which contains images of potato leave
 2. **Potato___Late_blight**: Leaves affected by late blight disease  
 3. **Potato___healthy**: Healthy potato leaves
 
-## 💻 Usage
+##  Usage
 
 ### Web Application
 1. Start the Streamlit app: `streamlit run app.py`
@@ -108,7 +108,7 @@ The project uses the PlantVillage dataset, which contains images of potato leave
 3. Run all cells to train a new model
 4. The trained model will be saved as `potatoes.h5`
 
-## 📋 Requirements
+##  Requirements
 
 The project dependencies are minimal and include:
 
@@ -117,7 +117,7 @@ The project dependencies are minimal and include:
 - `Pillow`: Image processing library
 - `numpy`: Numerical computing library
 
-## 🔧 Configuration
+##  Configuration
 
 ### Model Path
 The application loads the model from `potatoes.h5`. If you train a new model or want to use a different model version, update the path in `app.py`:
@@ -132,7 +132,7 @@ Images are automatically:
 - Normalized to [0,1] range
 - Converted to RGB format
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
@@ -140,20 +140,20 @@ Images are automatically:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📜 License
+##  License
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - PlantVillage dataset for providing the training data
 - TensorFlow/Keras for the deep learning framework
 - Streamlit for the web application framework
 
-## 📧 Contact
+##  Contact
 
 For questions or suggestions, please open an issue in the GitHub repository.
 
 ---
 
-**Made with ❤️ for agricultural technology and plant disease detection**
+
